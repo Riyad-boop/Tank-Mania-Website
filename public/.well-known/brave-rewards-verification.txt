@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: tank-mania.web.app
+Token: 44d923d2bc24a99b248aabba6393eae51a73fd29a328ff2c4a1d0bbe7c383101
