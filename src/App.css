@@ -178,7 +178,6 @@ main .wrapper {
         margin-right: 2.5%;
         margin-left: 2.5%;
         width: 45%;
-        transform: translate(0%,-100%);
       }
     }
 
@@ -186,8 +185,7 @@ main .wrapper {
     .RiyadCard { 
       margin-right: 2.5%;
       margin-left: 2.5%;
-      width: 45%;
-      transform: translate(0%,-110%);
+      width: 45%;     
     }
   }
 
@@ -195,8 +193,7 @@ main .wrapper {
     .RiyadCard {  
       margin-right: 15%;
       margin-left: 15%;
-      width: 70%;
-      transform: translate(0%,0%);
+      width: 70%;     
       }
   }
 

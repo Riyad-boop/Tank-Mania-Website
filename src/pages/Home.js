@@ -6,9 +6,6 @@ import {Container,Row,Col, Button} from 'react-bootstrap'
 import {
     Link
 } from 'react-router-dom';
-// import Download from './DownloadModal';
-// import Cover from '../components/Homepage/Cover';
-// import Snowfall from 'react-snowfall';
 import {Transition} from 'react-spring/renderprops';
 
 class Home extends React.Component {
@@ -39,33 +36,11 @@ class Home extends React.Component {
         .catch(console.error)
         }
 
-
-// https://wp.nkdev.info/youplay/main/
-//https://www.firewatchgame.com/
-//https://codesandbox.io/s/r0yekozrw?from-embed=&file=/index.js
-//plan
-// parralax image with tank manai headline https://www.npmjs.com/package/react-parallax   https://codesandbox.io/embed/r0yEkozrw?view=preview
-// incldue timer 
-//scroll down find game descroption
-//scroll more to find 3 cards
-// scroll more for time line / carosel
-//scroll more for footer
-
-
 render() {
     return ( 
             <div>
-                  {/* <Snowfall
-                    // Changes the snowflake color
-                    color="#4caf50"
-                    // Controls the number of snowflakes that are created (default 150)
-                    snowflakeCount={500}
-                  /> */}
-                {/* <Cover/> */}
             <Getimages pics={this.state.images}/>
-            <fade/>                
-              {/* <Download/> */}
-              
+            <fade/>                          
                 <div className="home-body">
                     
                         <h1>Game Description</h1>
